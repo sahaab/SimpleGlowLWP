@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        style="@style/CardView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#30000000"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/condensed_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.sahaab.quantumpaperui.widget.GATextView
+                android:id="@+id/title_texts"
+                style="@style/CondensedTitleText"
+                android:text="Simple Glow Live Wallpaper" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:minHeight="50dp"
+            android:orientation="vertical"
+            android:gravity="center" >  
+			<com.startapp.android.publish.banner.Banner 
+	          android:id="@+id/startAppBanner"
+	          android:layout_width="wrap_content"
+	          android:layout_height="50dp" />
+		</LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

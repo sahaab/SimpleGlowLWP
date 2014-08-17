@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <CheckBoxPreference android:key="touch" android:defaultValue="true"
+    android:title="Enable Touch"></CheckBoxPreference>
+  <net.margaritov.preference.colorpicker.ColorPickerPreference
+    android:key="color1"
+    android:title="@string/color1_title"
+    android:summary="@string/color1_summary"
+    android:defaultValue="@color/blue" 
+	/>
+  <net.margaritov.preference.colorpicker.ColorPickerPreference
+    android:key="color2"
+    android:title="@string/color2_title"
+    android:summary="@string/color2_summary"
+    android:defaultValue="@color/blue_glow" 
+	/>  
+
+  <EditTextPreference android:key="speedx"
+    android:title="Speed X axis" android:summary="set 0 to stop moving (Default:10.0)"></EditTextPreference>	 
+  
+  <EditTextPreference android:key="speedy"
+    android:title="Speed Y axis" android:summary="set 0 to stop moving (Default:20.0)"></EditTextPreference>
+  
+  <Preference android:key="reset"
+    android:title="Reset Settings to Default" android:summary="Everything except the speeds"></Preference> 	
+    
+      <PreferenceCategory android:title="Info">
+        <Preference android:title="Touch Wallpaper to refresh" android:summary="Refresh Wallpaper to set new settings" />
+        <Preference android:title="Developed By SZ Sutajio (Sahaab)" />
+    </PreferenceCategory>
+</PreferenceScreen> 

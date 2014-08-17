@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sahaab.glow.BlindsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blindsview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="15dp" >
+
+   		 
+
+    		 
+   	<LinearLayout android:gravity="center" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" >
+   		 
+
+			
+      
+   		 <com.sahaab.quantumpaperui.widget.GATextView
+                android:id="@+id/title_texts"
+                style="@style/CondensedTitleText"
+                android:layout_gravity="center"
+                android:text="Glow Live Wallpaper" />	
+                
+   		 <com.startapp.android.publish.banner.Banner 
+	          android:layout_width="wrap_content"
+	          android:layout_gravity="center"
+	          android:minHeight="50dp"
+	          android:layout_height="wrap_content" />		
+			
+        <Button
+            android:id="@+id/setWallpaper_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/dummy_button_one" />
+        
+        
+        <com.startapp.android.publish.banner.Banner 
+	          android:layout_width="wrap_content"
+	          android:layout_gravity="center"
+	          android:minHeight="50dp"
+	          android:layout_height="wrap_content" />  
+
+	</LinearLayout>
+
+ 	
+   	
+</com.sahaab.glow.BlindsView>

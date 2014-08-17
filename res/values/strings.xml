@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Glow Live Wallpaper</string>
+    <string name="dummy_button_one">Set Wallpaper</string>
+    <string name="wallpaper_description">Glow Live Wallpaper</string>    
+    
+        <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string> 
+    
+    <string name="color1_title">Main Background Color</string> 
+    <string name="color1_summary">Pick the color you want as background (Default:#0097a7)</string>    
+    
+    <string name="color2_title">Glow Color</string> 
+    <string name="color2_summary">Pick the color you want as the glow (Default:#42ecff)</string>     
+
+</resources>
