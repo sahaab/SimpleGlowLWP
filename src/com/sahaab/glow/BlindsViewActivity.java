@@ -34,7 +34,6 @@ public class BlindsViewActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		//StartAppSDK.init(this, "*************", "**************", true);
 		setContentView(R.layout.blindsviewref_main);
 		setBg();
 		
